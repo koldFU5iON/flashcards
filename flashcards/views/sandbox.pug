@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+    head
+        title Sandbox
+    body
+        header
+            h1 Sandbox
+        section#content
+            h2 Welcome, Student
+                table
+                    each name, index in friendNames
+                        tr 
+                            td= name.firstName
+                            td= name.lastName
+        footer
+            p An app to help you study
